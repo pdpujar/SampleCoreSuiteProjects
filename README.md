@@ -1,0 +1,2 @@
+# SampleCoreSuiteProjects
+Core Suite samples
