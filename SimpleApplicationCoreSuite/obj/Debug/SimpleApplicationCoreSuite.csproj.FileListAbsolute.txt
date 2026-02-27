@@ -1,0 +1,10 @@
+C:\FromD\SampleExamples\TestGithub\SimpleApplicationCoreSuite\bin\Debug\SimpleApplicationCoreSuite.exe.config
+C:\FromD\SampleExamples\TestGithub\SimpleApplicationCoreSuite\bin\Debug\SimpleApplicationCoreSuite.exe
+C:\FromD\SampleExamples\TestGithub\SimpleApplicationCoreSuite\bin\Debug\SimpleApplicationCoreSuite.pdb
+C:\FromD\SampleExamples\TestGithub\SimpleApplicationCoreSuite\bin\Debug\DynamicPDF.CoreSuite.dll
+C:\FromD\SampleExamples\TestGithub\SimpleApplicationCoreSuite\bin\Debug\DynamicPDF.CoreSuite.xml
+C:\FromD\SampleExamples\TestGithub\SimpleApplicationCoreSuite\obj\Debug\SimpleApplicationCoreSuite.csproj.AssemblyReference.cache
+C:\FromD\SampleExamples\TestGithub\SimpleApplicationCoreSuite\obj\Debug\SimpleApplicationCoreSuite.csproj.CoreCompileInputs.cache
+C:\FromD\SampleExamples\TestGithub\SimpleApplicationCoreSuite\obj\Debug\SimpleApplicationCoreSuite.csproj.CopyComplete
+C:\FromD\SampleExamples\TestGithub\SimpleApplicationCoreSuite\obj\Debug\SimpleApplicationCoreSuite.exe
+C:\FromD\SampleExamples\TestGithub\SimpleApplicationCoreSuite\obj\Debug\SimpleApplicationCoreSuite.pdb

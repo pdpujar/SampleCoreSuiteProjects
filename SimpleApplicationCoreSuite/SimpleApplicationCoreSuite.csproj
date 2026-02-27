@@ -33,6 +33,9 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="DynamicPDF.CoreSuite">
+      <HintPath>..\..\..\Builds\DotNet\v12\v12.42\DynamicPDFCoreSuiteForNETv12.42\Bin\net462\DynamicPDF.CoreSuite.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
