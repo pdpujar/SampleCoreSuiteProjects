@@ -21,8 +21,41 @@ namespace SimpleApplicationCoreSuite
             //document.Draw(outputPdf);
             //System.Diagnostics.Process.Start(outputPdf);
 
-            CreateSimpleTable();
+            //CreateSimpleTable();
+            CreatingTableWithOverflowRows();
 
+        }
+
+        private static void CreatingTableWithOverflowRows()
+        {
+            Table2 table = new Table2(100, 0, 400, 692);
+            Column2 col1 = table.Columns.Add(100);
+            Column2 col2 = table.Columns.Add(100);
+
+            for(int i=1;i<50;i++)
+            {
+                Row2 row1 = table.Rows.Add();
+                Cell2 cellR1C1 = row1.Cells.Add("Row"+(i)+" Column1");
+                Cell2 cellR1C2 = row1.Cells.Add("Row" + (i) + " Column2");
+            }
+            
+
+            Document document = new Document();
+
+            do
+            {
+                Page page = new Page();
+                document.Pages.Add(page);
+                //Add table to page.
+                page.Elements.Add(table);
+                table = table.GetOverflowRows();
+
+            } while(table != null);
+           
+
+            string outputPdf = @"SimpleOverflowRowsTable.pdf";
+            document.Draw(outputPdf);
+            System.Diagnostics.Process.Start(outputPdf);
         }
 
         private static void CreateSimpleTable()
